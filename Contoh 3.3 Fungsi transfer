@@ -1,0 +1,21 @@
+>> s=tf('s'); sys=(s+1)/(s^2+2*s+1)
+
+sys =
+ 
+      s + 1
+  -------------
+  s^2 + 2 s + 1
+ 
+Continuous-time transfer function.
+Model Properties
+>> s=zpk('s'); sys=(s+1)/(s^2+2*s+1)
+
+sys =
+ 
+   (s+1)
+  -------
+  (s+1)^2
+ 
+Continuous-time zero/pole/gain model.
+Model Properties
+>> 
