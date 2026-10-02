@@ -1,0 +1,7 @@
+>> n1=[1 1]; n2=[1 2]; d1=[1 2*i]; d2=[1 -2*i]; d3=[1 3]; num=conv(n1,n2); den=conv(d1,conv(d2,d3)); printsys(num,den); pzmap(num,den); title('Pole-zero map')
+ 
+num/den = 
+ 
+        s^2 + 3 s + 2
+   ----------------------
+   s^3 + 3 s^2 + 4 s + 12
