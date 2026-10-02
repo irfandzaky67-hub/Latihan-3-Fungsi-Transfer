@@ -1,0 +1,23 @@
+>> s=zpk('s'); sys=((s+2)*(s-1))/(((s+3)^2)*(s-5))
+
+sys =
+ 
+   (s+2) (s-1)
+  -------------
+  (s+3)^2 (s-5)
+ 
+Continuous-time zero/pole/gain model.
+Model Properties
+>> %menetapkan varaiabel s, sebagai variabel dari fungsi transfer
+>> s=tf('s'); sys=((s+2)*(s-1))/(((s+3)^2)*(s-5))
+
+sys =
+ 
+       s^2 + s - 2
+  ---------------------
+  s^3 + s^2 - 21 s - 45
+ 
+Continuous-time transfer function.
+Model Properties
+>> %mengembalikan fungsi transfer dalam bentuk polinomial
+>> 
